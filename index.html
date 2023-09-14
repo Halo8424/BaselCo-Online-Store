@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Portfolio & Merchandise Store</title>
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/5cd268af28.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <!-- Mobile Container -->
+      <div class="mobile-container">
+        <div class="header-left">
+          <a href="#">Basel & Co <span id="logo-period">.</span></a>
+        </div>
+
+        <!-- Header-Right -->
+        <div class="header-right">
+          <button id="like-btn" class="header-btn">
+            <div class="like-icon">
+              <span class="like-count">0</span>
+            </div>
+            <svg
+              width="24px"
+              height="24px"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z"
+                stroke="#000000"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </button>
+
+          <button id="cart-btn" class="header-btn">
+            <div class="cart-icon">
+              <span class="cart-count">0</span>
+            </div>
+            <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+            <svg
+              width="24px"
+              height="24px"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.29977 5H21L19 12H7.37671M20 16H8L6 3H3M9 20C9 20.5523 8.55228 21 8 21C7.44772 21 7 20.5523 7 20C7 19.4477 7.44772 19 8 19C8.55228 19 9 19.4477 9 20ZM20 20C20 20.5523 19.5523 21 19 21C18.4477 21 18 20.5523 18 20C18 19.4477 18.4477 19 19 19C19.5523 19 20 19.4477 20 20Z"
+                stroke="#000000"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </button>
+          <div class="mobile-navigation">
+            <button id="menu-icon-btn" class="header-btn">
+              <span class="menu-icon"></span>
+              <span class="menu-icon"></span>
+              <span class="menu-icon"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Larger_Screen_Navigation -->
+      <div class="desktop-navigation-container">
+        <div class="header-left">
+          <a href="#">Basel & Co <span id="logo-period">.</span></a>
+        </div>
+
+        <div class="header-right">
+          <nav class="desktop-navigation">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Shop</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+      <!-- Your portfolio content goes here -->
+      <section id="image-slider">
+        <div class="image-slider-container">
+          <picture>
+            <!-- Define the source for smaller screens (e.g., mobile) -->
+            <source
+              media="(max-width: 768px)"
+              srcset="/images/maksim-larin-NOpsC3nWTzY-unsplash.jpg"
+            />
+            <!-- Define the source for larger screens (e.g., desktop) -->
+            <source
+              media="(min-width: 769px)"
+              srcset="/images/maksim-larin-NOpsC3nWTzY-unsplash_lg.jpg"
+            />
+            <!-- Default fallback image for browsers that don't support the <picture> element -->
+            <img
+              src="/images/maksim-larin-NOpsC3nWTzY-unsplash.jpg"
+              alt="Responsive Image"
+              class="mobile-image"
+            />
+          </picture>
+        </div>
+      </section>
+
+      <!-- Merchandise Section -->
+      <section id="merchandise">
+        <h2 class="section_h2">made the hard way</h2>
+        <h3 class="section_h3">featured categories</h3>
+        <p class="section_paragraph">
+          Basel & Co. is a powerful eCommerce website. Visit our shop page to
+          see all main features for <a href="#">Your Store</a>
+        </p>
+        <div id="product-container">
+          <div class="product">
+            <img
+              src="/images/creative-headline-se3GNrXjtdQ-unsplash.jpg"
+              alt="bag_img"
+            />
+            <a href="your-page-url.html">
+              <div class="overlay">
+                <p>Bags</p>
+              </div>
+            </a>
+          </div>
+          <div class="product">
+            <img
+              src="/images/joseph-barrientos-4qSb_FWhHKs-unsplash.jpg"
+              alt="sneaker_img"
+            />
+            <a href="your-page-url.html">
+              <div class="overlay">
+                <p>Shoes</p>
+              </div>
+            </a>
+          </div>
+          <div class="product">
+            <img
+              src="/images/klickors-moe-1CjiCJgHOOY-unsplash.jpg"
+              alt="watch_img"
+            />
+            <a href="your-page-url.html">
+              <div class="overlay">
+                <p>Watches</p>
+              </div>
+            </a>
+          </div>
+          <div class="product">
+            <img
+              src="/images/joel-muniz-IZFY6VmuEj0-unsplash.jpg"
+              alt="sneaker_img"
+            />
+            <a href="your-page-url.html">
+              <div class="overlay">
+                <p>Woman</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- Summer Hats Section -->
+      <section id="summer-hats">
+        <h2 class="section_h2">Our Summer Hats Collection"</h2>
+        <p class="section_paragraph">
+          Elevate your summer style with our exquisite collection of summer
+          hats. Whether you're planning a day at the beach, a garden party, or
+          simply looking to shield yourself from the sun's rays while staying
+          fashionable, our summer hats are the perfect accessory.
+        </p>
+        <p></p>
+        <div class="solo-img-section-container">
+          <img
+            src="/images/caitlin-harris-XuVGTJ6kF2M-unsplash.jpg"
+            alt="summer hat"
+            class="mobile-image"
+          />
+        </div>
+      </section>
+
+      <section id="get-inspired">
+        <h2 class="section_h2">get inspired</h2>
+        <p class="section_paragraph">
+          Elevate your style with our collection, and let fashion inspire your
+          everyday wardrobe choices.
+        </p>
+        <div class="left-column-img_right-column-text">
+          <div class="section-img-container">
+            <img
+              src="/images/david-lezcano-NfZiOJzZgcg-unsplash.jpg"
+              alt="mens-clothing"
+              class="mobile-image"
+            />
+          </div>
+          <div class="section-content-container">
+            <h3 class="section_h3">
+              Men's Fashion: A Glimpse into Timeless Elegance and Contemporary
+              Trends
+            </h3>
+            <p class="section_paragraph">
+              Discover an array of men's clothing styles that seamlessly blend
+              classic sophistication with modern flair.<a href="#"
+                >Browse Collection</a
+              >
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+<!-- Footer Section -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-logo">
+          <a href="#">Basel & Co <span id="logo-period">.</span></a>
+        </div>
+        <div class="footer-links">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Shop</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <p>&copy; 2023 Your Name</p>
+    </footer>
+  </body>
+</html>
